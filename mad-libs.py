@@ -16,3 +16,14 @@ plural_noun = input("Plural noun: ").lower()
 verb_end_w_ing2 = input("Verb ending with -ing: ").lower()
 noun2 = input("Noun: ").lower()
 
+madlib = f"It was a {adj1}, cold November day. I woke \
+up to the {adj2} smell of {type_of_bird} roasting in \
+the {room_in_house} downstairs. I {verb_past_tense1} down \
+the stairs to see if I could help {verb1} the dinner. \
+My mom said. 'See if {relative_name} needs a fresh {noun1}' \
+So I carried a tray of glasses full of {liquid} into the \
+{verb_end_w_ing1} room. When I got there, I couldn't \
+believe my {body_part}! There were {plural_noun} {verb_end_w_ing2} \
+on the {noun2}!"
+
+print(madlib)
